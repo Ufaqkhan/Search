@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  	<title>Image Search</title>
+  	<style>
+      
+      .link{
+        text-align:right;
+        float:right;
+        font-size:small;
+        color:#222;
+        text-decoration: none;
+        font-family:arial,sans-serif;
+      }
+
+      a:hover{
+        text-decoration: underline;
+      }
+
+      input[type=text]{
+        height: 40px;
+        width: 500px;
+        border-radius: 25px;
+        border: 1px solid #dfe1e5;
+      }
+
+      input[type=text]:focus{
+        outline: none;
+        box-shadow: 0px 1px 2px rgb(195, 195, 195);
+      }
+
+       .image{
+        margin-left: 120px;
+        margin-top: 100px;
+      }
+
+      div{
+        text-align: center;
+      }
+
+  	</style>
+  </head>
+
+  <body>
+    <div>
+    <a  class="link" href="index.html">Google Search</a>
+    <img class="image" src=img/images.png alt = google.com height = 140px width=300px >
+    
+  	<form action="http://images.google.com/images?um=1&hl=en&safe=active&nfpr=1&q=your_search_query">
+  		   <input type="text" name="q">
+    </div>     
+  	</form>
+  
+  </body>
+
+</html>
